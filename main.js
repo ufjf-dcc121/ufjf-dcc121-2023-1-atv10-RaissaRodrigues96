@@ -4,3 +4,4 @@ const form = document.forms.entrada;
         function envia(evento){
             evento.preventDefault();
             console.log('Formulario enviado!');
+        }
