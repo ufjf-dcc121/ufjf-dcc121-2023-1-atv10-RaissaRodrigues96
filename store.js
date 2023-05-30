@@ -1,4 +1,3 @@
-const store = { estado : 0 };
+const store = { estado : [0,1,2,3] };
 export default store;
-export const store = { estado : 0 };
-export const store = { estado : 0 };
+
