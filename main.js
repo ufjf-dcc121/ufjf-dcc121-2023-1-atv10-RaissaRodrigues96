@@ -26,9 +26,9 @@ const form = document.forms.entrada;
            const ol = document.querySelector('ol');
            ol.innerHTML = "";
            const itens = getItens();
-           for(let i=0; i< itens().length; i++){
+           for(let i=0; i< itens.length; i++){
             const li = document.createElement('li');
-            li.textContent = itens()[i];
+            li.textContent = itens[i];
             ol.appendChild(li);
            }
            itens().push('Boom!');
